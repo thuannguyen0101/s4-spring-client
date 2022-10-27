@@ -29,7 +29,7 @@ import java.util.logging.Logger;
 @Controller
 public class ProductController {
 
-    private static final String REST_API_BASE = "http://localhost:8081/api/v1/products";
+    private static final String REST_API_BASE = "http://localhost:8082/api/products";
 
     private static Client createJerseyRestClient() {
         ClientConfig clientConfig = new ClientConfig();
